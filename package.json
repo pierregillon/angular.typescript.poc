@@ -1,0 +1,17 @@
+{
+  "name": "angular.typescript.poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.7.1",
+    "gulp": "^3.9.0",
+    "gulp-typescript": "^2.10.0",
+    "typescript": "^1.7.5"
+  }
+}

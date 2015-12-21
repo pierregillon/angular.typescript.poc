@@ -1,0 +1,17 @@
+{
+  "name": "app",
+  "authors": [
+    "Pierre GILLON <gillon.pierre69@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "angular-ui-router": "~0.2.15"
+  }
+}
