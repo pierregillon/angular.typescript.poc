@@ -1,4 +1,4 @@
-/// <reference path="../def/angular.d.ts" />
+/// <reference path="../../typings/angularjs/angular.d.ts" />
 
 angular.module('poc', [
     'ui.router'

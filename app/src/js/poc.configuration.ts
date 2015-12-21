@@ -1,4 +1,4 @@
-/// <reference path="../def/angular.d.ts" />
+/// <reference path="../../typings/angularjs/angular.d.ts" />
 
 class PocConfiguration {
     static $inject = ['$urlRouterProvider', '$stateProvider'];
