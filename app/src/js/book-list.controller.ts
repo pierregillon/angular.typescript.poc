@@ -1,5 +1,5 @@
 /// <reference path="../../typings/angularjs/angular.d.ts" />
-/// <reference path="book.ts" />
+/// <reference path="book.model.ts" />
 /// <reference path="book.repository.contract.ts"/>
 
 class HomeController {
@@ -13,11 +13,9 @@ class HomeController {
     }
 
     load():void {
-        this.bookRepository
-            .getBooks()
-            .then(function (books:Array<Book>) {
-                this.books = books;
-            }.bind(this));
+        this.bookRepository.getBooks().then((books:Array<Book>) => {
+            this.books = books;
+        });
     }
 }
 

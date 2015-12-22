@@ -6,10 +6,25 @@
   "bundle": "typings/tsd.d.ts",
   "installed": {
     "jquery/jquery.d.ts": {
-      "commit": "40c60850ad6c8175a62d5ab48c4e016ea5b3dffe"
+      "commit": "4c41545030eba44b27ce7209112dbf862f6b1d78"
     },
     "angularjs/angular.d.ts": {
-      "commit": "40c60850ad6c8175a62d5ab48c4e016ea5b3dffe"
+      "commit": "4c41545030eba44b27ce7209112dbf862f6b1d78"
+    },
+    "jasmine/jasmine.d.ts": {
+      "commit": "4c41545030eba44b27ce7209112dbf862f6b1d78"
+    },
+    "chai/chai.d.ts": {
+      "commit": "4c41545030eba44b27ce7209112dbf862f6b1d78"
+    },
+    "assertion-error/assertion-error.d.ts": {
+      "commit": "4c41545030eba44b27ce7209112dbf862f6b1d78"
+    },
+    "angularjs/angular-mocks.d.ts": {
+      "commit": "4c41545030eba44b27ce7209112dbf862f6b1d78"
+    },
+    "sinon/sinon.d.ts": {
+      "commit": "4c41545030eba44b27ce7209112dbf862f6b1d78"
     }
   }
 }

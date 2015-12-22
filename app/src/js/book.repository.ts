@@ -1,4 +1,4 @@
-/// <reference path="book.ts" />
+/// <reference path="book.model.ts" />
 /// <reference path="book.repository.contract.ts"/>
 
 class BookRepository implements IBookRepository {
