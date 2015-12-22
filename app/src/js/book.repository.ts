@@ -10,7 +10,8 @@ class BookRepository {
         return this.promiseService.when([
             new Book('book1'),
             new Book('book2'),
-            new Book('book3')
+            new Book('book3'),
+            new Book('book4')
         ]);
     }
 }
