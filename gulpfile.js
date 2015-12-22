@@ -35,4 +35,15 @@
         server.start();
     });
 
+    gulp.task('test-w', function (done) {
+        var server = new karma.Server({
+            configFile: path.resolve('./app/karma.conf.js'),
+            singleRun: false,
+            autoWatch: true
+        }, function () {
+            done();
+        });
+        server.start();
+    });
+
 })(require);
