@@ -1,5 +1,6 @@
 /// <reference path="../../typings/angularjs/angular.d.ts" />
 /// <reference path="book.ts" />
+/// <reference path="book.repository.contract.ts"/>
 
 class HomeController {
 
@@ -7,7 +8,7 @@ class HomeController {
 
     private books:Array<Book> = [];
 
-    constructor(private bookRepository:BookRepository) {
+    constructor(private bookRepository:IBookRepository) {
         this.load();
     }
 

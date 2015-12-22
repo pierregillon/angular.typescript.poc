@@ -1,6 +1,7 @@
 /// <reference path="book.ts" />
+/// <reference path="book.repository.contract.ts"/>
 
-class BookRepository {
+class BookRepository implements IBookRepository {
     static $inject = ['$q'];
 
     constructor(private promiseService:ng.IQService) {
